@@ -4,7 +4,7 @@ from telebot import types as t
 from datetime import date, time, datetime, timedelta
 
 
-token = "7819228238:AAGmY1aqMjlY5ewzt4timEsEzNx0cXoxJlc"
+token = ""
 bot = tb.TeleBot(token)
 
 @bot.message_handler(commands=["start"])
